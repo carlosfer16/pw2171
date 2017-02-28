@@ -1,0 +1,25 @@
+/*
+Orden en que van los elementos:
+1.- Pseudo-elementos
+	Contiene atributos
+2.- Etiquetas <etiquetas>	
+	Contiene atributos
+3.- identificadores
+	Contiene atributos
+4.- Clases
+	Contiene atributos
+5.- Elementos de responsive design
+	(diseño adaptativo)
+		Contiene atributos
+Todos ellos en orden alfabetico.
+Tanto elementos como atributos.		
+*/
+body{
+	background: rgba(255,0,0,0.4); 
+	//background: #FF0000; //Color de fondo
+	border: 1px solid black;
+	color: white; //Color de letra
+	font-size: 16px; //Tamaño de la fuente en px, em, %...
+	max-width: 1024px; //Ancho de paguina
+
+}
