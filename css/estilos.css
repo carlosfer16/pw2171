@@ -16,10 +16,33 @@ Tanto elementos como atributos.
 */
 body{
 	background: rgba(255,0,0,0.4); 
-	//background: #FF0000; //Color de fondo
-	border: 1px solid black;
-	color: white; //Color de letra
-	font-size: 16px; //Tamaño de la fuente en px, em, %...
-	max-width: 1024px; //Ancho de paguina
+	border: 1px solid blue;
+	color: white; /*Color de letra*/
+	font-size: 16px; /*Tamaño de la fuente en px, em, %...*/
+	margin: 0px auto;
+	max-width: 1024px; /*Ancho de paguina*/
+
+}
+header{
+	border: 1px solid red;
+	text-align: center;/*Texto dentro del header este centrado*/
+
+}
+header img{
+	/*Alto y ancho de la imagen*/
+	/*Si solamente cambiamos el ancho, la altura se ajusta automaticamente*/
+	/*height: 100px;*/
+	float: right; /*Ajusta la imagen a la derecha de la pantalla*/
+	margin: -50px 20px 0px 0px;
+	width: 100px;
+}
+header nav ul li{
+	/*border: 1px solid black;*/
+	border-radius: 25px; /*Redondea las esquenas del cuadro*/
+	background: blue;
+	display: inline-block;
+	margin: 0px 10px 0px 0px; /*separacion en pixeles de las cajas*/
+	padding: 5px 10px; /*Pixeles a los lados del texto*/
+	width: 84px; /*Ancho de todas las cajas*/
 
 }
