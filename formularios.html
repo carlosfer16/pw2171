@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Documents</title>
+</head>
+<body>
+	Formulario: Contenedor que sirve para
+	encapsular métodos de entrada de
+	datos del usuario. <br>
+	En el formulario se puede: <br>
+	<ol>
+		<li>Capturar datos</li>
+		<li>Validar lo que se ingresa</li>	
+		<li>Enviar el proceso</li>	
+		<li>Reiniciar la consulta</li>	
+	</ol>
+	<form action="procesa.html" method="post"> <!-- methods:Get: Muestra los datos en el URL... post: No puestra los datos en la URL -->
+		<input type="text" name="nombre" placeholder="Nombre" title="Nombre de la persona" pattern="[a-zA-Z]{6}" required> <!-- placeholder: Sirve para que aparesca una etiqueta dentro de la casilla -->
+		
+		<input type="text" name="ncontrol" placeholder="Número de control" title="Numero de control del estudiante" required> <!--title: Sirve para que aparesca texto al poner el mouse arriba de la casilla-->
+		
+		<input type="password" name="clave" placeholder="Ingresa contraseña" required>
+
+		<input type="number" name="promedio" placeholder="Promedio" title="Promedio hasta el semestre anterior" required> <!-- required: Sirve para que este campo debe estar lleno -->
+
+		<input type="date">
+		<input type="color">
+		<input type="email">
+		<input type="search">
+
+		<input type="submit" name="Enviar">
+		<input type="reset" name="Borrar datos">
+	</form>
+</body>
+</html>		
